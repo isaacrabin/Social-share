@@ -35,7 +35,7 @@ export class HomePage {
     await Share.share({
       title: 'Share picture via whatsapp',
       text: 'Sharing an Image',
-      url: this.selectedImage.path,
+      url: "https://digitalonboard.ecobank.com/self-onboarding/images-sav/kyc-data/getImage/ID_BACK/back_25331643_198745069.jpeg",
       dialogTitle: 'Share with whatsapp',
     });
   }
